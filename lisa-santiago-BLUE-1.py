@@ -24,7 +24,6 @@ A guessing game that asks the user if he/she would like to continue, and does no
 ###########################################
 # CONSTANTS     # FACTOR_BIOLOGY
 # FACTOR_BIOLOGY = 0
-# NO CONSTANTS
 
 
 
