@@ -118,7 +118,7 @@ while True:
         for dumbLittleKid in range(4): # TODO FIX THIS: LOOPS "INCORRECT" 8 TIMES
             if numberGuess == numberSecret or colorGuess == colorSecret:
                 print("Correct number and color guess")
-            elif numberGuess == numberSecres:
+            elif numberGuess == numberSecret:
                 print("Correct number guess")
             elif colorGuess == colorSecret:
                 print("Correct color guess")
