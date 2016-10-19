@@ -83,46 +83,45 @@ numberSecret = 0
 namePerson = input("What is your name? ")
 numberSecret = 21
 while True:
-    while cont == "y":
-        count+=1
-        for dumbLittleKid in range(2):
-            numberGuess = int(input("Enter your guess: "))
-            if numberGuess == numberSecret:
-                print("Good job!")
-        for dumbLittleKid in range(3):
-            numberGuess = int(input("Enter your guess: "))
-            if numberGuess == numberSecret:
-                print("Good job!")
-            else:
-                print("Incorrect guess")
-        for dumbLittleKid in range(4):
-            numberGuess = int(input("Enter your guess: "))
-            if numberGuess == numberSecret:
-                print("Correct guess")
-            elif numberGuess > 100:
-                print("Over 100")
-            elif numberGuess < 0:
-                print("Under 0")
-            elif numberGuess == 77:
-                print("Number is 77") # TODO FIX THIS
-                break
-            else:
-                print("Incorrect guess")
-        for dumbLittleKid in range(3):
-            numberGuess = int(input("Enter your guess: "))
-            colorGuess = input("Enter your color guess").lower()
-            if numberGuess == numberSecret and colorGuess == colorSecret:
-                print("Correct number and color guess")
-            else: # TODO FIX THIS ALSO
-                print("Incorrect guess(es)")
-        for dumbLittleKid in range(4): # TODO FIX THIS: LOOPS "INCORRECT" 8 TIMES
-            if numberGuess == numberSecret or colorGuess == colorSecret:
-                print("Correct number and color guess")
-            elif numberGuess == numberSecret:
-                print("Correct number guess")
-            elif colorGuess == colorSecret:
-                print("Correct color guess")
-        cont = input("Continue? Type 'y': ")
+    count+=1
+    for dumbLittleKid in range(2):
+        numberGuess = int(input("Enter your guess: "))
+        if numberGuess == numberSecret:
+            print("Good job!")
+    for dumbLittleKid in range(3):
+        numberGuess = int(input("Enter your guess: "))
+        if numberGuess == numberSecret:
+            print("Good job!")
+        else:
+            print("Incorrect guess")
+    for dumbLittleKid in range(4):
+        numberGuess = int(input("Enter your guess: "))
+        if numberGuess == numberSecret:
+            print("Correct guess")
+        elif numberGuess > 100:
+            print("Over 100")
+        elif numberGuess < 0:
+            print("Under 0")
+        elif numberGuess == 77:
+            print("Number is 77") # TODO FIX THIS
+            break
+        else:
+            print("Incorrect guess")
+    for dumbLittleKid in range(3):
+        numberGuess = int(input("Enter your guess: "))
+        colorGuess = input("Enter your color guess").lower()
+        if numberGuess == numberSecret and colorGuess == colorSecret:
+            print("Correct number and color guess")
+        else: # TODO FIX THIS ALSO
+            print("Incorrect guess(es)")
+    for dumbLittleKid in range(4): # TODO FIX THIS: LOOPS "INCORRECT" 8 TIMES
+        if numberGuess == numberSecret or colorGuess == colorSecret:
+            print("Correct number and color guess")
+        elif numberGuess == numberSecret:
+            print("Correct number guess")
+        elif colorGuess == colorSecret:
+            print("Correct color guess")
+    cont = input("Continue? Type 'y': ")
 
 
 
