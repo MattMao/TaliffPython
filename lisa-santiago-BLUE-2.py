@@ -37,7 +37,8 @@ A guessing game that asks the user if he/she would like to continue, and does no
 # nameStudent = " "     # initialize string
 namePerson = ""
 cont = "y"
-colorGuess = "blue"
+colorGuess = ""
+colorSecret = "blue"
 
 # ------------------------------------------
 # COUNTER VARIABLES
@@ -109,12 +110,12 @@ while True:
         for dumbLittleKid in range(3):
             numberGuess = int(input("Enter your guess: "))
             colorGuess = input("Enter your color guess").lower()
-            if numberGuess == numberSecret and colorGuess = colorSecret:
+            if numberGuess == numberSecret and colorGuess == colorSecret:
                 print("Correct number and color guess")
             else: # TODO FIX THIS ALSO
                 print("Incorrect guess(es)")
         for dumbLittleKid in range(4): # TODO FIX THIS: LOOPS "INCORRECT" 8 TIMES
-            if numberGuess == numberSecret or colorGuess = colorSecret::
+            if numberGuess == numberSecret or colorGuess == colorSecret:
                 print("Correct number and color guess")
             elif numberGuess == numberSecres:
                 print("Correct number guess")
