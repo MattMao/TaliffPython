@@ -84,6 +84,7 @@ namePerson = input("What is your name? ")
 numberSecret = 21
 while True:
     while cont == "y":
+        count+=1
         for dumbLittleKid in range(2):
             numberGuess = int(input("Enter your guess: "))
             if numberGuess == numberSecret:
