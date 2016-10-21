@@ -83,7 +83,6 @@ numberSecret = 0
 namePerson = input("What is your name? ")
 numberSecret = 21
 while True:
-    while cont == "y":
         count+=1
         for dumbLittleKid in range(2):
             numberGuess = int(input("Enter your guess: "))
@@ -104,7 +103,7 @@ while True:
             elif numberGuess < 0:
                 print("Under 0")
             elif numberGuess == 77:
-                print("Number is 77") # TODO FIX THIS
+                print("Number is 77") 
                 break
             else:
                 print("Incorrect guess")
@@ -113,16 +112,20 @@ while True:
             colorGuess = input("Enter your color guess").lower()
             if numberGuess == numberSecret and colorGuess == colorSecret:
                 print("Correct number and color guess")
-            else: # TODO FIX THIS ALSO
+            else: 
                 print("Incorrect guess(es)")
-        for dumbLittleKid in range(4): # TODO FIX THIS: LOOPS "INCORRECT" 8 TIMES
+        for dumbLittleKid in range(4)
             if numberGuess == numberSecret or colorGuess == colorSecret:
                 print("Correct number and color guess")
             elif numberGuess == numberSecret:
                 print("Correct number guess")
-            elif colorGuess == colorSecret:
+            else colorGuess == colorSecret:
                 print("Correct color guess")
-        cont = input("Continue? Type 'y': ")
+				
+		print("YOu ran this ",count, " Times")
+                
+                
+        
 
 
 
