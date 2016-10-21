@@ -37,7 +37,8 @@ A guessing game that asks the user if he/she would like to continue, and does no
 # STRING VARIABLES
 # nameStudent = " "     # initialize string
 namePerson = ""
-cont = "y"
+cont = ""
+m=""
 colorSecret = "blue"
 
 
@@ -81,6 +82,13 @@ numberSecret = 0
 # SECTION:  Loop Header Begins Here
 #******************************************
 # ask for input (if needed) for loop
+wihle m == "":
+	cont = input ("Press y or enter").lower()
+	if cont = 'y':
+		m="j"
+	else m= ""
+
+
 
 while True:
 	while cont == "y":
