@@ -82,7 +82,7 @@ numberSecret = 0
 #******************************************
 # ask for input (if needed) for loop
 
-while(True):
+while True:
 	while cont == "y":
 		for dumbLittleKid in range(2):
 			numberGuess = int(input("Enter your guess: "))
