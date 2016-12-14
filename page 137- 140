@@ -1,0 +1,75 @@
+#page137
+#Box 1
+
+sentence= input("Enter sentence")
+listOfWords= sentence.split()
+print("there are", len(listOfWords), "words")
+
+sum= 0
+for word in listOfWords:
+	sum += lenn(word)
+
+
+print ("The average word lenght is", sum/ len(listOfWords)
+
+
+#page137
+#Box 2
+
+#<and boject>. <method name> (<argument-1>,...,  <argument-n>)
+
+
+#page 139
+#Box 1
+
+s = "hi there!"
+print (len(s))
+
+print(s.center(11))
+
+print (s.count('e'))
+
+print(s.endwith("there!"))
+
+print(s.starwith("hi!"))
+
+print(s.find("the"))
+
+print(s.isalpha())
+
+print(abc.isalpha())
+
+print(326.isdigit())
+
+words= s.split()
+
+print(words)
+
+print("".join(words))
+
+print(" ".join(words))
+
+print(s.lower())
+
+print(s.upper())
+
+print(s.replace("i","o"))
+
+print(" Hi there! ".strip())
+
+# page 140
+#box 1
+
+print("myfile.txt".split())
+
+print("myfile.py".split())
+
+print("myfile.html".split())
+
+print("filename".split()[-1])
+
+
+
+
+
+
